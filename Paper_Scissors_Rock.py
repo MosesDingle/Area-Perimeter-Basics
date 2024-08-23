@@ -29,7 +29,7 @@ while playing:
     else:
         print("That's a big L buddy")
 
-    play_again = input("Play again? (y/n): ").lower()
+    play_again = input("press y to continue playing or any key to quit: ").lower()
     if not play_again == "y":
         playing = False
 
